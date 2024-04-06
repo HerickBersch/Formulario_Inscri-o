@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="assets/css/estilo.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+   
+
+    <form>
+
+        <header>
+            <h1>Inscrição</h1>
+        </header>
+        
+        <div class="nome">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Ex: Marco Andrade" />
+        </div>
+
+        <div class="Email">
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" placeholder="Ex: FelipeAndrade@gmail.com" />
+        </div>
+
+        <div>
+            <p>Sexo:</p>
+        </div>
+
+        <div class="alinhamento">
+
+            <div>
+
+                <input type="radio" id="feminino" name="sexo">
+
+                <label for="feminino"> feminino</label>
+            </div>
+
+            <div>
+
+                <input type="radio" id="masculino" name="sexo">
+
+                <label for="masculino"> masculino</label>
+            </div>
+        </div>
+
+
+        <div class="obs">
+            <label for="obs">Curso:</label>
+            <select id="obs">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+            </select>
+        </div>
+
+
+
+        <div class="descricao">
+            <label for="obs"> Descreva o atendimento especial:</label>
+            <textarea id="obs1"></textarea>
+        </div>
+
+
+        <div class="Termos">
+            <input type="checkbox" id="termos">
+            <label for="termos">Estou de acordo com o termos de serviço</label>
+        </div>
+
+        <div>
+            <input type="button" value=" Realizar Cadastro" 
+            id="button"/>
+            
+        </div>
+
+    </form>
+
+</body>
+
+</html>

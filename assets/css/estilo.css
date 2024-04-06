@@ -1,0 +1,88 @@
+:root {
+    --Azul: #1C6E8C;
+    --Azul_escuro: #274156;
+    --branco:#ffff;
+}
+
+form{
+    margin: 100px auto;
+    max-width: 400px;
+    
+}
+header {
+    background-color: var(--Azul);
+    width: 320px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: var(--branco);
+    padding-left: 10px;
+    font-family: 'Inter',serif;
+}
+
+.nome{
+    margin-top: 10px;
+}
+#nome {
+    display: flex;
+    width: 320px;
+    height: 39px;
+    border-radius: 5px;
+    font-family: 'Quicksand',serif;
+}
+.Email{
+    margin-top: 20px;
+}
+#Email {
+    display: flex;
+    width: 320px;
+    height: 39px;
+    border-radius: 5px;
+    font-family: 'Quicksand',serif;
+    
+}
+
+
+.alinhamento{
+    display: flex;
+    gap: 20px;
+}
+
+.obs{
+    margin-top: 10px; 
+}
+
+#obs{
+    display: flex;
+    width: 320px;
+    height: 39px;
+    border-radius: 5px;
+    font-family: 'Quicksand',serif;
+    
+
+}
+
+.descricao{
+    margin-top: 10px; 
+}
+
+#obs1{
+    display: flex;
+    width: 320px;
+    height: 39px;
+    border-radius: 5px;
+    font-family: 'Quicksand',serif;
+}
+
+.Termos{
+    margin-top: 10px;  
+}
+
+#button{
+    background-color: var(--Azul_escuro);
+    width: 328px;
+    height: 44px;
+    margin-top: 10px;
+    font-family: 'Quicksand',serif;
+    color: var(--branco);
+}
